@@ -1,4 +1,4 @@
-# firebase_login_flutter
+# Flutter-Login-Firebase-Bloc
 
 A new Flutter application.
 
@@ -15,3 +15,9 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # Flutter-Login-Firebase
+2021 / 02 / 03  Flutter-Login-Firebase-Bloc
+
+Flutter-Login-Firebase-Bloc.
+
+[My Github](https://github.com/wayne900204),
+[Flutter-Login-Firebase-Bloc](https://github.com/wayne900204/Flutter-Login-Firebase-Bloc) ,
