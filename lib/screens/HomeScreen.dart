@@ -30,9 +30,8 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(
                 height: 12,
               ),
-              FlatButton(
-                textColor: Theme.of(context).primaryColor,
-                child: Text('Logout'),
+              TextButton(
+                child: Text('Logout',style: TextStyle(color: Theme.of(context).primaryColor),),
                 onPressed: (){
                   BlocProvider.of<AuthenticationBloc>(context)
                       .add(LoggedOutEvent());

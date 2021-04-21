@@ -40,7 +40,7 @@ class _ResendPageState extends State<ResendPage> {
     return BlocConsumer<ResendBloc,ResendState>(
       listener: (BuildContext context, ResendState state){
         if(state.isSubmitting){
-          Scaffold.of(context)
+          ScaffoldMessenger.of(context)
             ..hideCurrentSnackBar()
             ..showSnackBar(SnackBar(
               content: Row(
@@ -51,7 +51,7 @@ class _ResendPageState extends State<ResendPage> {
             ));
         }
         if(state.isSuccess){
-          Scaffold.of(context)
+          ScaffoldMessenger.of(context)
             ..hideCurrentSnackBar()
             ..showSnackBar(SnackBar(
               content: Row(
@@ -62,7 +62,7 @@ class _ResendPageState extends State<ResendPage> {
             ));
         }
         if(state.isFailure){
-          Scaffold.of(context)
+          ScaffoldMessenger.of(context)
             ..hideCurrentSnackBar()
             ..showSnackBar(SnackBar(
               content: Row(

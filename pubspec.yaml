@@ -32,18 +32,18 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  firebase_core: ^0.7.0
-  animated_text_kit: ^3.1.0
-  bloc: ^6.1.1
-  flutter_bloc: ^6.1.1
-  equatable: ^1.2.5
-  firebase_auth: ^0.20.0
-  google_fonts: ^1.1.1
-  font_awesome_flutter: ^8.11.0
-  google_sign_in: ^4.5.9
-  shared_preferences: ^0.5.12+4
+  firebase_core: ^1.0.4
+  animated_text_kit: ^4.2.0
+#  bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
+  equatable: ^2.0.0
+  firebase_auth: ^1.1.1
+  google_fonts: ^2.0.0
+  font_awesome_flutter: ^9.0.0
+  google_sign_in: ^5.0.2
+  shared_preferences: ^2.0.5
   flutter_auth_buttons: 0.9.0
-  flutter_launcher_icons: ^0.8.0
+  flutter_launcher_icons: ^0.9.0
 flutter_icons:
   android: "launcher_icon"
   ios: true

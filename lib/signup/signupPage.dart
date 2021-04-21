@@ -44,7 +44,7 @@ class _SignupPageState extends State<SignupPage> {
     return BlocListener<SignupBloc, SignupState>(
       listener: (context, state) {
         if (state.isSubmitting) {
-          Scaffold.of(context)
+          ScaffoldMessenger.of(context)
             ..hideCurrentSnackBar()
             ..showSnackBar(
               SnackBar(
@@ -63,7 +63,7 @@ class _SignupPageState extends State<SignupPage> {
           Navigator.of(context).pop();
         }
         if (state.isFailure) {
-          Scaffold.of(context)
+          ScaffoldMessenger.of(context)
             ..hideCurrentSnackBar()
             ..showSnackBar(
               SnackBar(
